@@ -49,7 +49,6 @@ async def main():
     register_admin(dp)
     register_user(dp)
 
-    # start
     try:
         await dp.start_polling()
     finally:
